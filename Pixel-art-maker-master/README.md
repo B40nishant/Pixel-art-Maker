@@ -3,9 +3,7 @@
 
 ## Introduction
 
-This is the final project in Udacity's Google Developer Challenge Scholarship: Front-End Web Dev program; a Google sponsored scholarship that I have received.
-
-<img src="https://user-images.githubusercontent.com/30567608/34641846-764d2d78-f30a-11e7-9c8c-f0a1b1a221dd.png" alt="Google Developer Challenge Scholarship badge" width="200px" title="Google Developer Challenge Scholarship">
+This is the final project for Front-End Web Dev program.
 
 The aim of this project is to use the front-end basics learnt throughout the course to build a pixel art maker.
 
