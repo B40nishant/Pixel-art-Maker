@@ -1,0 +1,126 @@
+html {
+    overflow-y: scroll;
+    color: rgb(69, 62, 75);
+}
+
+body {
+    text-align: center;
+    font-family: 'Joti One', 'Open Sans', sans-serif;
+    border: 6px solid rgb(69, 62, 75);
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 0.2em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    max-width: 96%;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 3em;
+    margin-left: 5px;
+}
+
+button {
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(255, 249, 221);
+    border-radius: 30px;
+    border: 2px solid rgb(69, 62, 75);
+}
+
+.builder {
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.builder button {
+    width: 80px;
+    height: 30px;
+}
+
+.builder div {
+    width: 60px;
+    margin-right: 5px;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 2% 15px 2%;
+    background-color: rgb(207, 233, 207);
+    border: 2px solid rgb(69, 62, 75);
+}
+
+.controls > * {
+    margin: 0.5em;
+}
+
+#create-grid,
+#reset,
+#clear-grid {
+    width: 120px;
+}
+
+#reset {
+    margin-top: 10px;
+}
+
+#color-picker {
+    height: 50px;
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+footer {
+    font-family: 'Open Sans', sans-serif;
+    margin: 20% 5px 20px 5px;
+    font-size: 0.8em;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 780px){
+    h1 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 350px){
+    h1 {
+        font-size: 30px;
+    }
+
+    .builder {
+        flex-direction: column;
+        width: 70%;
+        align-items: center;
+    }
+
+    .builder button {
+        margin: 5px;
+    }
+}
